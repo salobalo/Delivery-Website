@@ -23,6 +23,27 @@
   src: url(../fonts/Poppins-Regular.ttf);
 }
 
+
+header, .service-page h2, .contact-box h2
+,.contact-box p, .delivery,
+  .delivery h4,
+.our-services h4,
+.our-services li,
+.delivery p,footer .copyright,
+footer .copyright,h3,
+.service-box .learnmore,.address
+{
+  font-family: poppins-semibold;
+}
+
+.aboutUs p, .service-box p,.about h2,
+.delivery-apps .ptext
+ {
+    font-family:poppins-medium;
+  }
+
+  
+
 .yellow-button {
   background-color: #fdc72d;
   padding: 15px 20px;
@@ -52,8 +73,7 @@ header {
   width: 100%;
   justify-content: space-around;
   padding: 50px 90px;
-  font-family: poppins-semibold;
-  /* background-color: blueviolet; */
+
 }
 
 header a {
@@ -119,14 +139,12 @@ header nav {
 }
 
 .aboutUs p {
-  font-family: poppins-medium;
   color: #777776;
 }
 
 .about h2 {
   margin-top: 100px;
   margin-bottom: 32px;
-  font-family: poppins-medium;
   font-size: 40px;
 }
 
@@ -135,7 +153,6 @@ header nav {
 .service-page h2 {
   text-align: center;
   font-size: 40px;
-  font-family: poppins-semibold;
 }
 
 .service-page .meore {
@@ -174,12 +191,10 @@ h3 {
 
 h3,
 .service-box .learnmore {
-  font-family: poppins-semibold;
 }
 
 .service-box p {
   font-size: 15px;
-  font-family: poppins-medium;
   color: #777776;
 }
 
@@ -234,7 +249,6 @@ h3,
 }
 
 .delivery-apps .ptext {
-  font-family: poppins-medium;
   color: #777776;
 }
 
@@ -265,12 +279,10 @@ CONTACT PAGE STYLES */
 
 .contact-box h2 {
   font-size: 40px;
-  font-family: poppins-semibold;
 }
 
 .contact-box p {
   font-size: 20px;
-  font-family: poppins-semibold;
   color: #777776;
   margin-top: 30px;
 }
@@ -282,7 +294,6 @@ CONTACT PAGE STYLES */
 
 .address {
   font-size: 20px;
-  font-family: poppins-semibold;
   color: #777776;
 }
 
@@ -312,7 +323,6 @@ CONTACT PAGE STYLES */
 
 .delivery {
   font-size: 15px;
-  font-family: poppins-semibold;
 }
 
 .delivery p {
@@ -323,14 +333,12 @@ CONTACT PAGE STYLES */
 .our-services h4 {
   font-size: 20px;
   color: #000000;
-  font-family: poppins-semibold;
 }
 
 .our-services li,
 .delivery p {
   color: #777776;
   font-size: 15px;
-  font-family: poppins-semibold;
 }
 
 .social p {
@@ -342,6 +350,5 @@ CONTACT PAGE STYLES */
 footer .copyright {
   text-align: center;
   font-size: 15px;
-  font-family: poppins-semibold;
   color: #777776;
 }
