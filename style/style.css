@@ -23,26 +23,33 @@
   src: url(../fonts/Poppins-Regular.ttf);
 }
 
-
-header, .service-page h2, .contact-box h2
-,.contact-box p, .delivery,
-  .delivery h4,
+header,
+.service-page h2,
+.contact-box h2,
+.contact-box p,
+.delivery,
+.delivery h4,
 .our-services h4,
 .our-services li,
-.delivery p,footer .copyright,
-footer .copyright,h3,
-.service-box .learnmore,.address
-{
+.delivery p,
+footer .copyright,
+footer .copyright,
+h3,
+.service-box .learnmore,
+.address {
   font-family: poppins-semibold;
 }
 
-.aboutUs p, .service-box p,.about h2,
-.delivery-apps .ptext
- {
-    font-family:poppins-medium;
-  }
+.aboutUs p,
+.service-box p,
+.about h2,
+.delivery-apps .ptext {
+  font-family: poppins-medium;
+}
 
-  
+a {
+  color: #000000;
+}
 
 .yellow-button {
   background-color: #fdc72d;
@@ -73,12 +80,8 @@ header {
   width: 100%;
   justify-content: space-around;
   padding: 50px 90px;
-
 }
 
-header a {
-  color: #000000;
-}
 header nav {
   width: 50%;
 }
@@ -107,7 +110,6 @@ header nav {
 }
 
 .main-product-surati {
-  /* background-color: black; */
   width: 60%;
   height: 722px;
   overflow: hidden;
@@ -200,9 +202,6 @@ h3,
 
 .service-box .learnmore {
   margin-top: 20px;
-}
-.service-box a {
-  color: #000000;
 }
 
 .service-box p span {
