@@ -23,6 +23,16 @@
   src: url(../fonts/Poppins-Regular.ttf);
 }
 
+.yellow-button {
+  background-color: #fdc72d;
+  padding: 15px 20px;
+  border-radius: 30px;
+  text-align: center;
+  font-family: poppins-semibold;
+  display: inline-block;
+  font-size: 20px;
+}
+
 .flex {
   display: flex;
   justify-content: space-between;
@@ -32,7 +42,9 @@
 header,
 h1,
 .introduction,
-.getStarted , .aboutUs p, h3{
+.getStarted,
+.aboutUs p,
+h3 {
   font-size: 20px;
 }
 
@@ -44,21 +56,14 @@ header {
   /* background-color: blueviolet; */
 }
 
-header a{
+header a {
   color: #000000;
 }
 header nav {
   width: 50%;
 }
-.orderNow,
-.getStarted {
-  width: 150px;
-  text-align: center;
-  background-color: #fdc72d;
-  border-radius: 20px;
-  font-family: poppins-semibold;
-}
-.main-product{
+
+.main-product {
   width: 90%;
   margin: 50px auto;
   justify-content: center;
@@ -68,7 +73,6 @@ header nav {
   width: 40%;
   height: 722px;
 }
-
 
 .introduction {
   margin: 36px 0 52px 0;
@@ -94,175 +98,155 @@ header nav {
   height: 100%;
 }
 
-
 /* ------about page styles */
-.about{
-  /* background-color: rgb(176, 255, 97); */
+.about {
   width: 80%;
   padding: 30px;
   margin: 0 auto;
 }
-.about-surati{
-  /* background-color: #fdc72d; */
+.about-surati {
   width: 50%;
   height: 506px;
   overflow: hidden;
-
 }
 
-.about-surati img{
+.about-surati img {
   width: 100%;
 }
-.aboutUs{
-width: 44%;
-height: 506px;
-/* background-color: brown; */
+.aboutUs {
+  width: 44%;
+  height: 506px;
 }
 
-.aboutUs p{
+.aboutUs p {
   font-family: poppins-medium;
   color: #777776;
 }
 
-.about h2{
+.about h2 {
   margin-top: 100px;
   margin-bottom: 32px;
   font-family: poppins-medium;
   font-size: 40px;
-
 }
 
 /* service page styleles 
 ----------------------------------- */
-.service-page h2{
+.service-page h2 {
   text-align: center;
   font-size: 40px;
   font-family: poppins-semibold;
 }
 
-.service-page .meore{
+.service-page .meore {
   margin-bottom: 88px;
 }
 
-.services{
+.services {
   margin: 0 auto;
   /* background-color: blueviolet; */
   width: 90%;
   height: 400px;
-
 }
- .service-box{
-width: 400px;
-height: 400px;
-/* background-color: rgb(255, 186, 161); */
-margin: 5px;
-text-align: center;
-border-radius: 10px;
-box-shadow: 0px 0px 7px 5px rgba(38,50,56,0.2);
-
+.service-box {
+  width: 400px;
+  height: 400px;
+  margin: 5px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 7px 5px rgba(38, 50, 56, 0.2);
 }
 
-.service-box-surati{
+.service-box-surati {
   margin: 30px auto;
   width: 200px;
   height: 122px;
   overflow: hidden;
 }
-.service-box-surati img{
+.service-box-surati img {
   width: 100%;
   height: 100%;
 }
 
-h3{
-  margin-top:34px;
+h3 {
+  margin-top: 34px;
 }
 
-
-h3 , .service-box .learnmore{
+h3,
+.service-box .learnmore {
   font-family: poppins-semibold;
 }
 
-.service-box p{
+.service-box p {
   font-size: 15px;
   font-family: poppins-medium;
   color: #777776;
 }
 
-.service-box .learnmore{
-margin-top: 20px;
+.service-box .learnmore {
+  margin-top: 20px;
 }
-.service-box a{
-    color: #000000;
+.service-box a {
+  color: #000000;
 }
 
 .service-box p span {
   display: block;
 }
 
-.service-box .surati2{
+.service-box .surati2 {
   width: 146px;
   height: 148pxx;
-
 }
 
-.service-box .surati3{
+.service-box .surati3 {
   width: 152px;
   height: 143px;
 }
 
 /* --------------- */
 
-
-.service-details{
+.service-details {
   width: 80%;
   margin: 160px auto;
   /* background-color: #263238; */
 }
-.service-detai-surati{
-  /* background-color: #fdc72d; */
+.service-detai-surati {
   width: 50%;
   height: 500px;
   overflow: hidden;
 }
 
-.service-details-surati img{
+.service-details-surati img {
   width: 100%;
 }
 
-.delivery-apps{
-  /* background-color: rgb(149, 234, 234); */
+.delivery-apps {
   width: 40%;
-  height: 500px;
 }
 
-.delivery-apps h2{
+.delivery-apps h2 {
   text-align: left;
 }
-.delivery-apps p{
-  margin: 28px 0 64px 0;
+.delivery-apps p {
+  /* margin: 28px 0 64px 0; */
   font-size: 20px;
 }
 
-.delivery-apps .ptext{
+.delivery-apps .ptext {
   font-family: poppins-medium;
   color: #777776;
 }
 
-.apps-box{
-
-}
-.apps-box .app{
-  background-color: #fdc72d;
-  border-radius: 30px;
-  width: 200px;
-  height: 60px;
-  font-size: 20px;
-  font-family: poppins-semibold;
-  text-align: center;
+.apps-box {
+  margin-top: 40px;
 }
 
+.apple-button {
+  margin-right: 30px;
+}
 
-.delivery-apps p{
+.delivery-apps p {
   font-size: 20px;
 }
 .delivery-apps p span {
@@ -271,67 +255,50 @@ margin-top: 20px;
 
 /* --------------------------
 CONTACT PAGE STYLES */
-.contact-main{
+.contact-main {
 }
 
-
-.contact{
-
+.contact {
   width: 80%;
-  /* background-color: rgb(102, 102, 230); */
   margin: 140px auto;
 }
 
-
-.contact-box h2{
+.contact-box h2 {
   font-size: 40px;
   font-family: poppins-semibold;
 }
 
-.contact-box p{
+.contact-box p {
   font-size: 20px;
   font-family: poppins-semibold;
   color: #777776;
+  margin-top: 30px;
 }
 
-.contact-box .newline , .delivery span{
+.contact-box .newline,
+.delivery span {
   display: block;
 }
 
-.address{
+.address {
   font-size: 20px;
   font-family: poppins-semibold;
   color: #777776;
-  /* background-color: #fdc72d; */
 }
 
-.address .email{
+.address .email {
   margin: 20px 0;
-
 }
 
-.address span{
+.address span {
   color: #000000;
 }
 
-
-.contact-button{
-  font-size: 20px; 
-  font-family: poppins-semibold;
-  background: #fdc72d; 
-  width: 150px;
-  text-align: center;
-  border-radius: 30px;
-}
-
-
-.footer{
-  background-color: #FEE395;
+.footer {
   height: 450px;
 }
 
-.footer-divs{
-  /* background-color: brown; */
+.footer-divs {
   width: 70%;
   height: 400px;
   margin: 0 auto;
@@ -339,53 +306,42 @@ CONTACT PAGE STYLES */
   padding-top: 100px;
 }
 
-.footer-divs li{
-  margin:20px 0 25px 0;
+.footer-divs li {
+  margin: 20px 0 25px 0;
 }
 
-
-.delivery{
-  /* background-color: rgb(46, 42, 165); */
+.delivery {
   font-size: 15px;
   font-family: poppins-semibold;
-
 }
 
-.delivery p{
+.delivery p {
   margin-top: 20px;
 }
 
-
-
-.our-services{
-  /* background-color: blue; */
-
-}
-
-.delivery h4,.our-services h4{
+.delivery h4,
+.our-services h4 {
   font-size: 20px;
   color: #000000;
   font-family: poppins-semibold;
 }
 
-.our-services li , .delivery p{
+.our-services li,
+.delivery p {
   color: #777776;
   font-size: 15px;
   font-family: poppins-semibold;
 }
 
-.social p{
+.social p {
   margin-right: 40px;
   width: 26px;
   height: 22px;
-
 }
 
-footer .copyright{
+footer .copyright {
   text-align: center;
   font-size: 15px;
   font-family: poppins-semibold;
   color: #777776;
 }
-
-
