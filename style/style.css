@@ -89,7 +89,7 @@ header nav {
   overflow: hidden;
 }
 
-.main-product-surati img ,{
+.main-product-surati img {
   width: 100%;
   height: 100%;
 }
@@ -387,9 +387,5 @@ footer .copyright{
   font-family: poppins-semibold;
   color: #777776;
 }
-
-
-
-
 
 
